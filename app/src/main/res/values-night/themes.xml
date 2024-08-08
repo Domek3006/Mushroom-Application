@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Default" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#0D4700</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">#4CAF50</item>
+        <item name="android:textColor">@color/black_color</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="toolbarStyle">@style/ActionBar</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:colorBackground">@color/light_green_color</item>
+        <item name="navigationViewStyle">@style/NavigationViewDefault</item>
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonDefault</item>
+        <item name="cardViewStyle">@style/CardViewDefault</item>
+        <item name="android:progressBarStyle">@style/ProgressBarDefault</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom</item>
+<!--        <item name="android:actionBarTheme">@style/ActionBar</item>-->
+<!--        <item name="android:actionBarStyle">@style/ActionBar</item>-->
+        <item name="colorControlNormal">@color/white_color</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/green_color</item>
+        <item name="titleTextColor">@color/white_color</item>
+    </style>
+
+    <style name="CardViewDefault" parent="CardView">
+        <item name="cardBackgroundColor">@color/light_green_color2</item>
+    </style>
+
+    <style name="NavigationViewDefault" parent="Widget.Design.NavigationView">
+        <item name="background">@color/green_color</item>
+        <item name="itemIconTint">@color/black_color</item>
+        <item name="itemTextColor">@color/black_color</item>
+    </style>
+
+    <style name="FloatingActionButtonDefault" parent="Widget.Design.FloatingActionButton">
+        <item name="tint">@color/light_green_color</item>
+        <item name="backgroundTint">@color/green_color</item>
+    </style>
+
+    <style name="ProgressBarDefault" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+        <item name="android:indeterminateTint">@color/black_color</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.Material3.Dark.Dialog">
+        <item name="dialogCornerRadius">20dp</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textColorPrimary">@color/black_color</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:background">@color/light_green_color2</item>
+        <item name="android:colorAccent">@color/black_color</item>
+    </style>
+
+    <style name="Theme.Default1" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black_color</item>
+        <item name="colorPrimaryVariant">@color/black_color</item>
+        <item name="colorOnPrimary">@color/white_color</item>
+        <item name="android:colorBackground">@color/grey_color</item>
+        <item name="android:textViewStyle">@style/TextViewDefault1 </item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="toolbarStyle">@style/ActionBarDefault1</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="navigationViewStyle">@style/NavigationViewDefault1</item>
+        <item name="cardViewStyle">@style/CardViewDefault1</item>
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonDefault1</item>
+        <item name="android:progressBarStyle">@style/ProgressBarDefault1</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogCustom1</item>
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/white_color</item>
+    </style>
+
+    <style name="TextViewDefault1" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black_color</item>
+    </style>
+
+    <!--    <style name="ActionBarDefault" parent="Widget.MaterialComponents.Toolbar">-->
+    <!--        <item name="android:background">@color/black_color</item>-->
+    <!--        <item name="android:textColor">@color/white_color</item>-->
+    <!--        <item name="titleTextColor">@color/white_color</item>-->
+    <!--    </style>-->
+
+    <style name="FloatingActionButtonDefault1" parent="Widget.Design.FloatingActionButton">
+        <item name="tint">@color/black_color</item>
+        <item name="backgroundTint">@color/white_color</item>
+    </style>
+
+    <style name="NavigationViewDefault1" parent="Widget.Design.NavigationView">
+        <item name="background">@color/grey_color</item>
+        <item name="itemIconTint">@color/black_color</item>
+        <item name="itemTextColor">@color/black_color</item>
+    </style>
+
+    <style name="ActionBarDefault1" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/black_color</item>
+        <item name="titleTextColor">@color/white_color</item>
+    </style>
+
+    <style name="CardViewDefault1" parent="CardView">
+        <item name="cardBackgroundColor">@color/dark_grey_color</item>
+    </style>
+
+    <style name="ProgressBarDefault1" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateTintMode">src_atop</item>
+        <item name="android:indeterminateTint">@color/black_color</item>
+    </style>
+
+    <style name="AlertDialogCustom1" parent="Theme.Material3.Dark.Dialog">
+        <item name="dialogCornerRadius">20dp</item>
+        <item name="android:textColor">@color/black_color</item>
+        <item name="android:textColorPrimary">@color/black_color</item>
+        <item name="android:headerDividersEnabled">true</item>
+        <item name="android:background">@color/grey_color</item>
+        <item name="android:colorAccent">@color/black_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/detailLayout"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailSpecies"
+        android:text="Gatunek"
+        android:textAlignment="center"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp"
+        android:textAppearance="?attr/textAppearanceHeadline3" />
+
+    <ImageView
+        android:id="@+id/detailImg"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailSpeciesLatin"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:text="Nazwa łacińska: " />
+
+    <ImageView
+        android:id="@+id/detailEdibility"
+        android:layout_marginTop="10dp"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

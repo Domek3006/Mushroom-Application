@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/drawerGroup1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawerHome"
+            android:title="Strona domowa"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:checked="true" />
+        <item
+            android:id="@+id/drawerAtlas"
+            android:title="Atlas"
+            android:icon="@drawable/ic_baseline_menu_book_24"/>
+        <item
+            android:id="@+id/drawerHistory"
+            android:title="Historia"
+            android:icon="@drawable/ic_baseline_mushroom_24"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/drawerGroup2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawerSettings"
+            android:title="Ustawienia"
+            android:icon="@drawable/ic_baseline_settings_24"/>
+
+        <item
+            android:id="@+id/drawerAbout"
+            android:title="Informacje o aplikacji"
+            android:icon="@drawable/ic_baseline_about_24"/>
+
+        <item
+            android:id="@+id/drawerLogout"
+            android:title="Wyloguj"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+
+    </group>
+
+</menu>
